@@ -12,7 +12,7 @@ const Home = () => {
     //     setBlogs(newBlogs);
     // }
 
-    useEffect(() =>{
+    useEffect(() => {
         setTimeout(() => {
             fetch('http://localhost:8000/blogs')
             .then(res => {
